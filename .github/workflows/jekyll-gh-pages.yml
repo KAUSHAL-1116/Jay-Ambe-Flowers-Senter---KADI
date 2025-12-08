@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Ambe Flowers Senter - Kadi</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff7f8;
+      color: #333;
+      padding-top: 0px;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff4d6d, #ff758f);
+      color: white;
+      padding: 25px 10px;
+      text-align: center;
+      position: sticky;   /* 🔥 Make Sticky */
+      top: 0;
+      z-index: 1000;      /* Always on top */
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+
+    /* Container Responsive */
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    .highlight-box {
+      background: #f3d3db;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #d90429;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    /* UL responsive */
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    ul li {
+      background: #ffe6ec;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    /* Images Responsive */
+    ul li img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #ffb3c6;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Hover Only Desktop */
+    @media (hover: hover) {
+      ul li img:hover {
+        transform: scale(2);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      }
+    }
+
+    .contact p, .visit p {
+      font-size: 1.1rem;
+      background: #ffe6ec;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ff4d6d;
+      color: white;
+      margin-top: 30px;
+      font-size: 1rem;
+    }
+
+    /* ---------- RESPONSIVE MEDIA QUERIES ---------- */
+
+    /* Tablets */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      ul li {
+        font-size: 1rem;
+      }
+
+      ul li img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+
+    /* Mobile Phones */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header p {
+        font-size: 0.9rem;
+      }
+
+      ul li {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      ul li img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .contact p, .visit p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Jay Ambe Flowers Senter</h1>
+    <p>Fresh Flowers • Decorations • Fragrances</p>
+    <p><strong>Seller : KAUSHAL & KANUBHAI</strong></p>
+  </header>
+
+  <div class="container">
+    <div class="highlight-box">
+      <h2>Welcome to Our Flower Shop!</h2>
+      <b><p>We offer beautiful fresh and artificial flowers, elegant flower jewellery, and premium fragrances for all occasions. Visit us in Kadi and experience the fragrance of quality.</p></b>
+    </div>
+
+    <div class="services">
+      <h2>Our Products & Services</h2>
+      <ul>
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\IMG-20250721-WA0009.jpg" />
+          બુકે (ગુલદસ્તો)
+        </li></b>
+
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\IMG-20250528-WA0010.jpg" />
+          Original & Artificial Flowers
+        </li></b>
+
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\Booke.jpg" />
+          Best ફૂલનો હાર
+        </li></b>
+
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\a3397c591acd4489a81a0e9060cd3bee.jpg" />
+          ધૂપ Sticks
+        </li></b>
+
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\Attar.jpg" />
+          અત્તર
+        </li></b>
+
+        <b><li>
+          <img src="d:\Web Disign\Flower Products\1c7aee57b6240e5c625bbfbeea42d550.jpg" />
+          Original અને Artificial ફુલ થી કાર ડેકોરેશન
+        </li></b>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> 9824076344 & 7984455464</p>
+    </div>
+
+    <div class="visit">
+      <h2>Visit Our Shop</h2>
+      <p><strong>અમારી 2 શાખા છે.</strong><br>
+        શ્રેષ્ઠ સેવા અને સુંદર ફૂલોના સંગ્રહ માટે કૃપા કરીને  
+        <strong>ગુજરાત રાજ્યના કાડી શહેરમાં આવેલી</strong> 
+        ઉમિયા જવેલર્સની પાછળ અમારી દુકાનની મુલાકાત લો. 
+        તેમજ, અમારી બીજી શાખા પણ નજીકમાં ઉપલબ્ધ છે જ્યાં તમામ ફ્લાવર પ્રોડક્ટ્સ મળે છે.  
+        <br><br><strong>અમે હોમ ડિલિવરી આપતા નથી.</strong>
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    © <b>2025</b> Jay Ambe Flowers Center - All Rights Reserved
+  </footer>
+
+</body>
+</html>
